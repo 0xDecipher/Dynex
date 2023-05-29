@@ -1,3 +1,36 @@
+# Dynex (DNX) team uncovered: Sergey Kozlov and a group of Ukrainian & Russian crypto veterans
+
+In the recent months, the new crypto project “Dynex” (DNX) has gained a lot of attention, mainly because of the claim to build a blockchain based “decentralised neuromorphic supercomputing platform”. There has been much speculation about the team behind the Dynex, reason enough for us to start digging and to reveal our findings. At least in crypto, peace and united collaboration between Ukraine and Russia seems to be possible.
+
+According to their website, Dynex is the “World’s first neuromorphic supercomputing blockchain based on the DynexSolve chip algorithm,
+a Proof-of-Useful-Work (PoUW) approach to solving real-world problems.”. The main-net started in September 2022 with a fair launch (100% public allocation, no ICO, no pre-mining) and has since showcased a Proof-of-Useful-Work (PoUW) mining algorithm which potentially could be a revolution for the industry. Dynex’ coin, DNX, is listed on Lbank, Txbit, Tradeogre and Xeggex. DNX has since gained 1,500% in price and reports new hash-rate records on a weekly basis. Their technology, as described in their white-paper as well as in their DynexSolve paper (their PoUW algorithm is called “DynexSolve”) seems to be very advanced and is based on an alternative computing paradigm. But who are the people behind Dynex?
+
+A WHOIS record request of their main website does not reveal much information. The Dynex developers are using Domain protection to hide the information about the registrar. Another potential source of information could be the route through their name server settings:
+
+The records show that all of *.dynexcoin.org domains are pointed to Cloudflare, a service to secure websites, APIs, and Internet applications. We consider this positive for Dynex, because state-of-the-art cyber protection is an important criteria for any successful project. Nevertheless did we go ahead and applied multiple penetration test tools to see if we can pierce through to gather additional intelligence. Consider this also to test the resilience of their computing infrastructure by simulating a real-world attack, without any of the associated risks. Such attacks are especially effective in defending an organisation against unknown or “zero-day” threats. We do not publish the results here, but we can disclose that no vulnerabilities where identified. An active OWASP Core Ruleset has been detected. Access to the Dynex Web wallet is protected by a leaked credentials check in addition.
+
+As most of Dynex’ code is open source, we spent almost 12 hours and digged deep into all of the repositories which are publicly available — by using classical editors but also by parsing binaries for non-stripped information with our developer tools. And there we go:
+
+```
+Sergey Kozlov
+```
+
+#Who is Sergey Kozlov?
+
+It doesn’t take long to circle the name to what we believe is the main person behind the Dynex project. Sergey Kozlov, who has a Ph.D. in Economics and is also a visiting Professor at Kiev School of Economics, is an innovator and renowned expert in crypto. As a pioneer of decentralised computing. some of his work has influenced projects like XMR (Monero), TRTL (TurtleCoin) or BCN (Bytecoin). Sergey has quite a number of publications around crypto-assets and blockchain, some of which are:
+
+- New approach to crypto assets fair value calculation and natural monopolies in a decentralized world (2018)
+- Competition of Money (2018)
+- DeFi — тихая финансовая революция (2020)
+
+His early work was dedicated to digital cash in a decentralised world, later his interest evolved to smart contracts and DeFi. Proof-of-Useful-Work, which Dynex is offering, seems to be the logical next iteration. It also becomes clear why CryptoNote has been chosen by the developers as the core for their blockchain.
+
+#Who are the Dynex Developers?
+
+It is apparent that he must have started Dynex with the help of seasoned developers. We analysed different developer forums as well as contributions on the various Github profiles over the timelines and found that @Biomonster, an experienced senior developer (previously HiveOS and various other crypto projects), as well as the @Chernov_brothers are actively involved in the Dynex project. The track record and experience of the team members we managed to disclose is quite impressive which makes us believe that Dynex is being built on a solid foundation from a team perspective.
+
+We find it remarkable that developers from Ukraine and Russia are peacefully collaborating on a new blockchain paradigm. Maybe the world should take crypto as an example — at last in that respect.
+
 # Dynex [DNX] - Next Generation Blockchain for Neuromorphic Computing
 
 With the end of Moore’s law approaching and Dennard scaling ending, the computing community is increasingly looking at new technologies to enable continued performance improvements. A neuromorphic computer is a nonvon Neumann computer whose structure and function are inspired by biology and physics. Today, such systems can be built and operated using existing technology, even at scale, and are capable of outperforming current quantum computers.
